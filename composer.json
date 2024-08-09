@@ -9,6 +9,7 @@
     "type": "project",
     "minimum-stability": "stable",
     "require": {
-        "php": "^8.1.29"
+        "php": "^8.1.29",
+        "codeigniter4/framework": "^4.0"
     }
 }
