@@ -1,0 +1,14 @@
+{
+    "name": "erick/controle-departamento-pessoal",
+    "authors": [
+        {
+            "name": "erick",
+            "email": "erickrosts@gmail.com"
+        }
+    ],
+    "type": "project",
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1.29"
+    }
+}
