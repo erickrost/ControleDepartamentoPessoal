@@ -2,9 +2,7 @@
 
 namespace App\Models;
 
-use CodeIgniter\Database\ResultInterface;
 use CodeIgniter\Model;
-use stdClass;
 
 /**
  * Base class for People classes

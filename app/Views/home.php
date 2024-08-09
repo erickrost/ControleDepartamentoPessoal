@@ -10,6 +10,9 @@
 
 <body>
     <h1>hello world</h1>
+    <?php foreach ($employees as $employee): ?>
+        <div><?= $employee['email'] ?></div>
+    <?php endforeach; ?>
 </body>
 
 </html>
