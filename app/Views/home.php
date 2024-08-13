@@ -9,10 +9,44 @@
 </head>
 
 <body>
-    <h1>hello world</h1>
-    <?php foreach ($employees as $employee): ?>
-        <div><?= $employee['nome'] ?></div>
-    <?php endforeach; ?>
+
+    <header>
+        <h1>Departamento Pessoal</h1>
+        <div id="user">
+            <img src="usuario">
+            <p>Usuário 1</p>
+        </div>
+    </header>
+
+    <div id="content">
+        <section>
+            <p>Controle de Funcionários</p>
+            <button>Cadastrar Funcionário</button>
+        </section>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Cargo</th>
+                    <th>Admissão</th>
+                    <th>Salario</th>
+                    <th>Detalhado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php foreach ($employees as $employee): ?>
+                    <tr>
+                        <td><?= $employee['nome'] ?></td>
+                        <td><?= $employee['cargo'] ?></td>
+                        <td><?= $employee['admissao'] ?></td>
+                        <td><?= $employee['salario'] ?></td>
+                    </tr>
+                <?php endforeach ?>
+            </tbody>
+        </table>
+    </div>
+
 </body>
 
 </html>
