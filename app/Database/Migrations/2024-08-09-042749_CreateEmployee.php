@@ -14,10 +14,43 @@ class CreateEmployee extends Migration
                 "unsigned" => true,
                 "auto_increment" => true,
             ],
+            "nome" => [
+                "type" => "CHAR",
+            ],
+            "cpf" => [
+                "type" => "CHAR",
+            ],
+            "rg" => [
+                "type" => "VARCHAR",
+            ],
+            "nascimento" => [
+                "type" => "VARCHAR",
+            ],
+            "admissao" => [
+                "type" => "VARCHAR",
+            ],
+            "pis" => [
+                "type" => "VARCHAR",
+            ],
+            "cargo" => [
+                "type" => "VARCHAR",
+            ],
+            "cbo" => [
+                "type" => "VARCHAR",
+            ],
+            "estadoCivil" => [
+                "type" => "VARCHAR",
+            ],
             "email" => [
                 "type" => "VARCHAR",
-                "constraint" => "128",
-            ]
+            ],
+            "celular" => [
+                "type" => "VARCHAR",
+            ],
+            "salario" => [
+                "type" => "VARCHAR",
+            ],
+
         ]);
         $this->forge->addKey("id", true);
         $this->forge->createTable("employees");

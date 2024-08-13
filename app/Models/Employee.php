@@ -13,6 +13,18 @@ class Employee extends Model
     protected $primaryKey = 'id';
     protected $useAutoIncrement = true;
     protected $allowedFields = [
+        'nome',
+        'cpf',
+        'rg',
+        'nascimento',
+        'admissao',
+        'pis',
+        'cargo',
+        'cbo',
+        'estadoCivil',
         'email',
+        'celular',
+        'salario',
     ];
+
 }
