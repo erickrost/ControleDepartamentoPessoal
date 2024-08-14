@@ -1,0 +1,113 @@
+@import url('./reset.css');
+@import url('./fonts.css');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+}
+
+header h1 {
+    font-size: 1.8em;
+}
+
+#user {
+    display: flex;
+    align-items: center;
+}
+
+#img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    background-color: #fff;
+}
+
+#user p {
+    margin: 0;
+    font-weight: bold;
+}
+
+#content {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+section p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+section button {
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+section button:hover {
+    background-color: #0056b3;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background: #333;
+    color: #fff;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    font-weight: bold;
+}
+
+
+tbody tr:hover {
+    background-color: #f1f1f1;
+}
+
+td button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9em;
+    font-weight: bold;
+
+}
+
+td button:hover {
+    background-color: #0056b3;
+}

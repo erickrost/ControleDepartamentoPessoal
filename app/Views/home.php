@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/index.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Controle DP</title>
 </head>
 
 <body>
@@ -41,6 +41,7 @@
                         <td><?= $employee['cargo'] ?></td>
                         <td><?= $employee['admissao'] ?></td>
                         <td><?= $employee['salario'] ?></td>
+                        <td><button>...</button></td>
                     </tr>
                 <?php endforeach ?>
             </tbody>

@@ -22,7 +22,7 @@ class Employee extends Seeder
                 'estadoCivil' => 'solteiro',
                 'email' => 'erickrosts@gmail.com',
                 'celular' => '12997577656',
-                'salario' => '1900',
+                'salario' => '1900,00',
             ],
             [
                 'id' => 2,
@@ -37,7 +37,7 @@ class Employee extends Seeder
                 'estadoCivil' => 'casado',
                 'email' => 'joaovitorc@gmail.com',
                 'celular' => '12997577656',
-                'salario' => '4500',
+                'salario' => '4500,00',
             ],
             [
                 'id' => 3,
@@ -52,7 +52,7 @@ class Employee extends Seeder
                 'estadoCivil' => 'solteiro',
                 'email' => 'isabelleflirentinot@gmail.com',
                 'celular' => '12997577656',
-                'salario' => '2100',
+                'salario' => '2100,00',
             ],
             [
                 'id' => 4,
@@ -67,7 +67,7 @@ class Employee extends Seeder
                 'estadoCivil' => 'solteiro',
                 'email' => 'pedrinhoalvares@gmail.com',
                 'celular' => '12997577656',
-                'salario' => '1200',
+                'salario' => '1200,00',
             ],
             [
                 'id' => 5,
@@ -82,7 +82,7 @@ class Employee extends Seeder
                 'estadoCivil' => 'solteiro',
                 'email' => 'erickrosts@gmail.com',
                 'celular' => '12997577656',
-                'salario' => '1600',
+                'salario' => '1600,00',
             ]
         ];
 
