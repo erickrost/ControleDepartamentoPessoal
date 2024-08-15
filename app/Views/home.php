@@ -13,7 +13,7 @@
     <header>
         <h1>Departamento Pessoal</h1>
         <div id="user">
-            <img src="usuario">
+            <div id="img"></div>
             <p>Usuário 1</p>
         </div>
     </header>

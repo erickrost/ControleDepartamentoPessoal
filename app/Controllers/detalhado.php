@@ -4,13 +4,13 @@ namespace App\Controllers;
 
 use App\Models\Employee;
 
-class Detalhado extends BaseController
+class detalhado extends BaseController
 {
     public function index(): string
     {
         $employeeModel = new Employee();
-        $employees = $employeeModel->findAll();
+        $employee = $employeeModel->findAll();
 
-        return view('detalhado', ["employees" => $employees]);
+        return view('detalhado', ["employees" => $employee]);
     }
 }
